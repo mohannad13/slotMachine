@@ -24,7 +24,6 @@ public class SlotMachineService {
                 player.setPointsBalance(player.getPointsBalance() + points);
             }
 
-            //Check for mission completion and apply rewards
             missionService.checkAndApplyRewards(player);
 
             return result;
