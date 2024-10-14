@@ -25,7 +25,6 @@ public class SlotMachineService {
             }
 
             missionService.checkAndApplyRewards(player);
-
             return result;
         } else {
             throw new IllegalArgumentException("No spins left for the player!");
