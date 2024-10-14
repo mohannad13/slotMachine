@@ -33,7 +33,6 @@ public class MissionService {
             }
         }
 
-        // Handle mission reset based on repeatedIndex
         if (player.getPointsBalance() >= missions.get(missions.size() - 1).getPointsGoal()) {
             resetPlayerMissions(player);
         }

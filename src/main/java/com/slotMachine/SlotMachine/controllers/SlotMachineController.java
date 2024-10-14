@@ -6,6 +6,7 @@ import com.slotMachine.SlotMachine.models.SpinResult;
 import com.slotMachine.SlotMachine.services.MissionService;
 import com.slotMachine.SlotMachine.services.PlayerService;
 import com.slotMachine.SlotMachine.services.SlotMachineService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
