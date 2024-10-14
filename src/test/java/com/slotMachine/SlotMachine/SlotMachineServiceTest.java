@@ -46,7 +46,7 @@ public class SlotMachineServiceTest {
     @Test
     public void testSpinWithJackpotIncreasesPoints() {
         doAnswer(invocation -> {
-            testPlayer.setPointsBalance(testPlayer.getPointsBalance() + 9); // assume a jackpot with three 3's
+            testPlayer.setPointsBalance(testPlayer.getPointsBalance() + 9);
             return null;
         }).when(missionService).checkAndApplyRewards(testPlayer);
 
